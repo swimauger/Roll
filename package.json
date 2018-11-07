@@ -1,0 +1,19 @@
+{
+  "name": "electron-game",
+  "productName": "Roller Game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mark Auger",
+  "license": "ISC",
+  "dependencies": {
+    "electron-localshortcut": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron": "^3.0.5",
+    "electron-packager": "^12.2.0"
+  }
+}

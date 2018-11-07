@@ -1,0 +1,23 @@
+body {
+  background-color: brown;
+}
+
+h1 {
+  font-family: Marker Felt;
+  font-weight: bold;
+  font-size: 100pt;
+  color: white;
+  text-align: center;
+}
+
+a {
+  font-family: Marker Felt;
+  font-weight: bold;
+  font-size: 50pt;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 60pt;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="../css/game.css">
+      <title>Roll</title>
+    </head>
+    <body>
+      <!-- CREATE MENU -->
+      <div class="create_menu">
+
+        <h1 class="create_menu">Create Player</h1>
+
+        <input class="create_menu" id="player_name" placeholder="Name"></input>
+
+        <select class="create_menu" id="player_color">
+          <option class="create_menu" value="maroon">Red</option>
+          <option class="create_menu" value="green">Green</option>
+          <option class="create_menu" value="navy">Blue</option>
+        </select class="create_menu">
+
+        <select class="create_menu" id="player_specialty">
+          <option class="create_menu" value="size">Size: Start off twice the size</option>
+          <option class="create_menu" value="speed">Speed: Start off twice as fast</option>
+          <option class="create_menu" value="power">Power: Start off with twice as strong attack</option>
+        </select>
+
+        <button class="create_menu" onclick="game.start()">Start</button>
+
+      </div>
+
+      <!-- GAME -->
+      <header class="game">
+        <a href="../index.html">Home</a>
+        <a href="../shop.html">Shop</a>
+        <a href="../stats.html">Stats</a>
+        <a href="../shop.html">Leaderboard</a>
+      </header>
+      <div class="game" id="player">
+        <div id="ball"></div>
+      </div>
+    </body>
+      <script src="../js/view.js"></script>
+      <script src="../js/game.js"></script>
+      <script src="../js/stack.js"></script>
+      <script src="../js/movable_object.js"></script>
+      <script src="../js/npc/npc.js"></script>
+      <script src="../js/npc/ai.js"></script>
+      <script src="../js/npc/spawn.js"></script>
+      <script src="../js/player/ball.js"></script>
+      <script src="../js/projectile/projectile.js"></script>
+  </html>
